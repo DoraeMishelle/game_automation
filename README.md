@@ -12,6 +12,17 @@ This project is a great starting point for anyone wanting to program their first
 
 This project uses [Python 3](https://www.python.org/) and [Flask](https://flask.palletsprojects.com/). It also comes with an optional [Dockerfile](https://docs.docker.com/engine/reference/builder/) to help with deployment.
 
+## Other Pre-Requisites to Consider
+### Using Replit and ecnountering outdated docs
+Replit has been updated and is not 1:1 with documentation on Battlesnake "Read the Docs". Here are a few things that you may have to consider to have a smooth set up and to run the game from Replit:
+* The Starter Project Template for python button on the Battlesnake docs creates a GitHub repo and not a Replit. I was able to create a Replit after the repo was created using the button above. Also, Replit may cost money to use.
+* When using Replit in the current version, the main.py and other files are not automatically open. You have to search for the files by using the magnifying glass in the top right corner. The starter kit files will be visible to choose from in the list.
+* Webview is now called Preview in Replit. You can search for the Preview module in Replit and then drag the tab anywhere in viewer to have a split screen between files and outputs. 
+* Once you press the green arrow to run 'main.py', it will then generate the URL needed in the preview module when creating a battlesnake in the "My Battlesnakes" section on play.battlesnake.com. The URL may possibly look like a long series of numbers, dashes, and letters but should end with '.replit.dev'. Only after this will you be able to create a game.
+
+### Virtual Environment
+Whether you're using developing using your local computer through GitHub there are a pre-reqs needed when using Flask in a virtual environment.
+
 ## Run Your Battlesnake
 
 Install dependencies using pip
